@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Word of the Day</h1>
+        <div class="word-container">
+            <h2 id="word"></h2>
+            <p id="translation"></p>
+            <img id="image" src="" alt="Word Image" />
+        </div>
+
+        <div class="actions">
+            <button onclick="testWord()">Test Me!</button>
+            <button onclick="refreshWord()">Refresh Word</button>
+        </div>
+
+        <div class="test-container" id="test-container">
+            <h3>Test Yourself</h3>
+            <input type="text" id="test-input" placeholder="Enter the word">
+            <button onclick="submitTest()">Submit</button>
+            <p id="test-result"></p>
+        </div>
+
+        <div id="weekly-test">
+            <button onclick="weeklyTest()">Weekly Test</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
