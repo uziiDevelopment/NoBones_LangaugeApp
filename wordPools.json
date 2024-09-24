@@ -1,0 +1,15 @@
+{
+    "languages": {
+      "Spanish": [
+        { "text": "Hola", "translation": "Hello", "imageURL": "https://example.com/image.png" },
+        { "text": "Gracias", "translation": "Thank you", "imageURL": "https://example.com/image.png" },
+        { "text": "Adiós", "translation": "Goodbye", "imageURL": "https://example.com/image.png" }
+      ],
+      "French": [
+        { "text": "Bonjour", "translation": "Hello", "imageURL": "https://example.com/image.png" },
+        { "text": "Merci", "translation": "Thank you", "imageURL": "https://example.com/image.png" },
+        { "text": "Au revoir", "translation": "Goodbye", "imageURL": "https://example.com/image.png" }
+      ]
+    }
+  }
+  
