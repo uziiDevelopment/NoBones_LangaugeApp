@@ -2,9 +2,9 @@
 
 // Word pool array
 let wordPool = [
-    { text: "Hola", translation: "Hello", imageURL: "https://example.com/hola.jpg" },
-    { text: "Gracias", translation: "Thank you", imageURL: "https://example.com/gracias.jpg" },
-    { text: "Adiós", translation: "Goodbye", imageURL: "https://example.com/adios.jpg" }
+    { text: "Hola", translation: "Hello", imageURL: "https://cdn.discordapp.com/attachments/1232710031053422705/1288153785188749467/Image.png?ex=66f42633&is=66f2d4b3&hm=0c3df42b21d0467ad2f173f547035c20b3b5f353486c33259f4c7b47798260aa&" },
+    { text: "Gracias", translation: "Thank you", imageURL: "https://cdn.discordapp.com/attachments/1232710031053422705/1288153785188749467/Image.png?ex=66f42633&is=66f2d4b3&hm=0c3df42b21d0467ad2f173f547035c20b3b5f353486c33259f4c7b47798260aa&" },
+    { text: "Adiós", translation: "Goodbye", imageURL: "https://cdn.discordapp.com/attachments/1232710031053422705/1288153785188749467/Image.png?ex=66f42633&is=66f2d4b3&hm=0c3df42b21d0467ad2f173f547035c20b3b5f353486c33259f4c7b47798260aa&" }
 ];
 
 let currentWordIndex = 0;
